@@ -13,7 +13,7 @@
  
  I am an unRAID user and use User Scripts. I have created my own script which I execute after every NZBGet Docker update. If you want to use it the same way, you need to edit the script file and change the name of your NZBGet docker. 
  
- Instructions:
+ **Instructions:**
  1. Download the GitHub zip file.
  2. Copy the corresponding folder contents to your NZBGet Appdata Folder
  3. Copy the corresponding folder contents to your Userscripts Folder 
