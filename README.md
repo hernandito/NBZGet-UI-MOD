@@ -1,7 +1,7 @@
 # NBZGet-UI-MOD
  
  
- A while back I thought the NZBGet UI could be improved. I gave it a try and I came up with something I liked.
+ A while back I thought the NZBGet UI could be improved. I gave it a try and came up with something I liked.
  
  ![](UI.png)
  
