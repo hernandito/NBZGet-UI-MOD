@@ -3,6 +3,8 @@
  
  A while back I thought the NZBGet UI could be improved. I gave it a try and I came up with something I liked.
  
+ ![](UI.png)
+ 
  The main goal was to combine both the Downloads and the History pages into one. I recall reaching out to the NZBGet team and they were not interested in making the change at the time.
   
  I made other CSS edits for a different design style (pleasing to my eyes).
