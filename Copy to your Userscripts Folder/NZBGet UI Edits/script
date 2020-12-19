@@ -1,0 +1,24 @@
+#!/bin/bash
+
+##########################################
+# INSTRUCTIONS:
+# Replace "Docker Name" below with the 
+# name of your NZBGet Docker. Do not 
+# remove the "quotes".
+##########################################
+
+source="Docker Name"
+
+
+
+######################################
+#    DO Not Edit Below
+######################################
+echo "<div style=' width: 50%; -webkit-border-radius: 8px 8px 0 0; border-radius: 8px 8px 0 0; border: solid 1px #333333; background-color: #333333; padding: 10px;'><b><font color='#b32d00' size='2'>Applying NZBGet UI Changes</font><b></div>"
+
+docker exec $source cp  /config/ui-edits/index.html /app/nzbget/webui/index.html
+docker exec $source cp  /config/ui-edits/style.css /app/nzbget/webui/style.css
+docker exec $source cp  /config/ui-edits/bootstrap.css /app/nzbget/webui/lib/bootstrap.css
+docker exec $source cp  /config/ui-edits/favicon.ico /app/nzbget/webui/img/favicon.ico
+docker exec $source cp  /config/ui-edits/pattern.png /app/nzbget/webui/img/pattern.png
+
